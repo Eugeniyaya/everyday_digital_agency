@@ -52,9 +52,15 @@
     background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
+.btn:hover {
+    background-color: #efecf2;
+}
+.btn:active {
+    opacity: 0.8;
+}
+
 .btn__link {
     font-weight: bold;
     font-size: 14px;
@@ -63,6 +69,9 @@
     text-transform: uppercase;
     color: #57B3FE;
     text-decoration: none;
+}
+.btn__link:hover {
+    color: rgba(81, 33, 136, 0.857);
 }
 
 /* header */
@@ -112,6 +121,15 @@
     color: white;
     text-decoration: none;
     padding: 15px 16px; 
+}
+.menu__item {
+    margin: 0 15px;
+}
+.menu__link:hover, .menu__item:hover {
+    text-decoration: underline;
+}
+.menu__link:active, .menu__item:active {
+    opacity: 0.8;
 }
 .main {
     padding-top: 106px;
