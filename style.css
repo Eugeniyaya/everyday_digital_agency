@@ -415,6 +415,7 @@
 }
 .start__info img {
     max-width: 100%;
+    object-fit: contain;
 }
 .start__heading {
     color: white;
@@ -490,7 +491,6 @@
 
 /* media  */
 @media (min-width: 1441px) {
-
 .start {
     background-position-y: 33%;
     background-size: cover;
@@ -553,6 +553,9 @@
     .footer__menu .menu__item {
         padding: 20px 0px;
         margin: 0 10px;
+    }
+    .start__info {        
+        padding-right: 5%;
     }
 }
 
